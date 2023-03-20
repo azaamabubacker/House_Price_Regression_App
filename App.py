@@ -7,10 +7,10 @@ style = """<div style='background-color:white; padding:12px'>
        </div>"""
 st.markdown(style, unsafe_allow_html=True)
 
-
+  
 
 with open('catboost_enco.sav', 'rb') as f:
-    model = pickle.load(f)
+  model = pickle.load(f)
     
     
 def predict_price(OverallQual, YearBuilt, YearRemodAdd, TotalBsmtSF, 
