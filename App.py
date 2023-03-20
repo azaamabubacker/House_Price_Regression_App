@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import catboost as cb
 import numpy as np
 import pickle
 
@@ -10,8 +8,8 @@ style = """<div style='background-color:white; padding:12px'>
 st.markdown(style, unsafe_allow_html=True)
 
 
-import pickle
-with open('E:/BSc Assignments/Second Semester/Computational Intelligence/Assignment/Task_02/House Prediction App/catboost_enco.sav', 'rb') as f:
+
+with open('catboost_enco.sav', 'rb') as f:
     model = pickle.load(f)
     
     
