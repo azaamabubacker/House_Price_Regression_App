@@ -26,7 +26,7 @@ def predict_price(OverallQual, YearBuilt, YearRemodAdd, TotalBsmtSF,
 def main():
     # Define the app title and a brief description
     #st.title("Advanced House Price Prediction")
-    st.subheader("Azaam Abubacker | CMU | Stu Id: st20253331")
+    st.subheader("Mohamed Azhar | CMU | Stu Id: st20253344")
     st.text("Please enter the following information to get a price estimate")
 
     # Add input fields for user input
